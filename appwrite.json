@@ -1,0 +1,36 @@
+{
+    "projectId": "63ca393fc7b7f28ab286",
+    "projectName": "Engexpert",
+    "functions": [
+        {
+            "$id": "63d9f6fb5afb9ab72de6",
+            "name": "gmail",
+            "runtime": "node-16.0",
+            "path": "functions/gmail",
+            "entrypoint": "src/index.js",
+            "ignore": [
+                "node_modules",
+                ".npm"
+            ],
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 15
+        },
+        {
+            "$id": "640c4ff7755c5d75d2c8",
+            "name": "s3upload",
+            "runtime": "node-16.0",
+            "path": "functions/s3upload",
+            "entrypoint": "src/index.js",
+            "ignore": [
+                "node_modules",
+                ".npm"
+            ],
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 15
+        }
+    ]
+}
